@@ -1,4 +1,9 @@
 import "./DisplayContent.css";
+import Canvas from "../../image/canvas.png";
+import Music from "../../image/music.png";
+import Twitter from "../../image/twitter.png";
+import Discuss from "../../image/Discussion.png";
+import resas from "../../image/resas.png";
 
 type Props = {
   title: string;
@@ -20,7 +25,7 @@ const DisplayContent = (props: Props) => {
                 <div className="content_card">
                   <div className="content_card__imgframe">
                     <img
-                      src="image/canvas.png"
+                      src={Canvas}
                       className="w-full h-full object-fill rounded-lg"
                     />
                   </div>
@@ -50,7 +55,7 @@ const DisplayContent = (props: Props) => {
                 <div className="content_card">
                   <div className="content_card__imgframe">
                     <img
-                      src="image/music.png"
+                      src={Music}
                       className="w-full h-full object-fill rounded-lg"
                     />
                   </div>
@@ -80,7 +85,7 @@ const DisplayContent = (props: Props) => {
                 <div className="content_card">
                   <div className="content_card__imgframe">
                     <img
-                      src="image/twitter.png"
+                      src={Twitter}
                       className="w-full h-full object-fill rounded-lg"
                     />
                   </div>
@@ -113,7 +118,7 @@ const DisplayContent = (props: Props) => {
                 <div className="content_card">
                   <div className="content_card__imgframe">
                     <img
-                      src="image/Discussion.png"
+                      src={Discuss}
                       className="w-full h-full object-fill rounded-lg"
                     />
                   </div>
@@ -143,7 +148,7 @@ const DisplayContent = (props: Props) => {
                 <div className="content_card">
                   <div className="content_card__imgframe">
                     <img
-                      src="image/resas.png"
+                      src={resas}
                       className="w-full h-full object-fill rounded-lg"
                     />
                   </div>
