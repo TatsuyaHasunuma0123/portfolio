@@ -11,9 +11,15 @@ type Props = {
 const Profile = (props: Props) => {
   return (
     <>
-      <div className="md-10 grid place-items-center w-11/12 h-5/6 text-slate-100 p-10 shadow-[50px_50px_78px_0_rgb(3,10,18),-50px_-50px_78px_0_rgb(11,38,74)] card">
+      <div className="md-10 grid place-items-center w-11/12 h-5/6 text-slate-100 p-10 shadow-[50px_50px_78px_0_rgb(3,10,18),-50px_-50px_78px_0_rgb(11,38,74)] card container">
         <div className="z-50 text-lg">
-          <img src="./icon.svg" className="object-fill rounded-lg"></img>
+          <div className="flex justify-center">
+            <img
+              src="./icon.svg"
+              className="w-2/5 object-fill rounded-lg"
+            ></img>
+          </div>
+
           <div className="mt-4 text-center text-2xl">Tatsuya Hasunuma</div>
           <div className="border-t-2 mt-4"></div>
           <div className="mt-3 grid grid-rows-7 grid-cols-3">
