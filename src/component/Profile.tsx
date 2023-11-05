@@ -11,7 +11,7 @@ type Props = {
 const Profile = (props: Props) => {
   return (
     <>
-      <div className="grid place-items-center w-full h-full text-slate-100 p-10 shadow-[50px_50px_78px_0_rgb(3,10,18),-50px_-50px_78px_0_rgb(11,38,74)] card ">
+      <div className="md-10 grid place-items-center w-5/6 h-11/12 text-slate-100 p-10 shadow-[50px_50px_78px_0_rgb(3,10,18),-50px_-50px_78px_0_rgb(11,38,74)] card">
         <div className="z-50 text-lg">
           <img src="./icon.svg" className="object-fill rounded-lg"></img>
           <div className="mt-4 text-center text-2xl">Tatsuya Hasunuma</div>

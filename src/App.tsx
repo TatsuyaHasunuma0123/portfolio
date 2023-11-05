@@ -42,7 +42,7 @@ function App() {
       {isMediumScreen && <div className="bg-white">中画面の表示</div>}
       {isLargeScreen && (
         <div className="h-screen grid grid-rows-4 grid-cols-4 gap-1 bg-[#07182e] place-items-center">
-          <div className="grid text-white col-span-1 row-span-4 place-items-center p-4">
+          <div className="grid text-white col-span-1 row-span-4 place-items-center h-full w-full p-5">
             <Profile age={myAge} />
           </div>
           <div className="text-white  col-span-1">
