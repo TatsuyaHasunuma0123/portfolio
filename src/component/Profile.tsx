@@ -22,7 +22,7 @@ const Profile = (props: Props) => {
 
         <div className="text-center text-2xl">Tatsuya Hasunuma</div>
         <div className="border-t-2 mt-4"></div>
-        <div className="mt-3 grid grid-rows-7 grid-cols-3">
+        <div className="h-full mt-3 mb-5 grid grid-rows-7 grid-cols-3 bg-white">
           <div className="row-span-2 place-self-center mt-5 mb-5">
             <div className="p-4 rounded-xl shadow-[13px_13px_26px_0_rgb(3,10,18),-13px_-13px_26px_0_rgb(11,38,74)]">
               <FiMail />
@@ -50,8 +50,8 @@ const Profile = (props: Props) => {
             <span className="text-[#FF30FF]">B</span>irthdaty
           </div>
           <div className="col-span-2 text-base mb-5">2001/01/23</div>
-          <div className="col-span-3 place-self-center h-1/3  w-full">
-            <div className="flex justify-center items-center mb-8  p-4 rounded-xl shadow-[13px_13px_26px_0_rgb(3,10,18),-13px_-13px_26px_0_rgb(11,38,74)] hover:shadow-[inset_13px_13px_50px_0_rgb(3,10,18),inset_-13px_-13px_26px_0_rgb(11,38,74)] cursor-pointer transition duration-300 ease-in-out">
+          <div className="col-span-3 place-self-center w-full">
+            <div className="flex justify-center items-center  p-4 rounded-xl shadow-[13px_13px_26px_0_rgb(3,10,18),-13px_-13px_26px_0_rgb(11,38,74)] hover:shadow-[inset_13px_13px_50px_0_rgb(3,10,18),inset_-13px_-13px_26px_0_rgb(11,38,74)] cursor-pointer transition duration-300 ease-in-out">
               <FaGithub className="text-2xl md:3xl" />
             </div>
           </div>
