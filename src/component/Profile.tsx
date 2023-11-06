@@ -22,7 +22,7 @@ const Profile = (props: Props) => {
 
         <div className="text-center text-2xl">Tatsuya Hasunuma</div>
         <div className="border-t-2 mt-4"></div>
-        <div className="mt-3 mb-5 grid grid-rows-7 grid-cols-3 bg-white">
+        <div className="mt-3 mb-5 grid grid-rows-7 grid-cols-3">
           <div className="row-span-2 place-self-center mt-5 mb-5">
             <div className="p-4 rounded-xl shadow-[13px_13px_26px_0_rgb(3,10,18),-13px_-13px_26px_0_rgb(11,38,74)]">
               <FiMail />
