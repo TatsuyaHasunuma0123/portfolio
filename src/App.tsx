@@ -65,7 +65,7 @@ function App() {
         </div>
       )}
       {isMediumScreen && (
-        <div className="flex justify-center w-full">
+        <div className="grid place-items-center w-full">
           <div
             className="w-5/6  mt-4 flex justify-center items-center p-4 mb-4 text-sm text-red-800 border border-red-300 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400 dark:border-red-800"
             role="alert"
@@ -83,7 +83,7 @@ function App() {
             <div>
               <div className="font-medium  text-xl">Sorry!</div>
               <div className="text-xl">
-                小さい画面用のポートフォリオは作成中です...
+                中画面用のポートフォリオは作成中です...
                 ノートPCなどの大きな画面でご覧ください!!
               </div>
             </div>
@@ -92,7 +92,7 @@ function App() {
       )}
       {isLargeScreen && (
         <div className="h-screen grid grid-rows-4 grid-cols-4 gap-1 bg-[#07182e] place-items-center">
-          <div className="grid text-white col-span-1 row-span-4 place-items-center h-full w-full p-5">
+          <div className="grid col-span-1 row-span-4 place-items-center h-5/6 w-5/6 p-5 text-slate-100 shadow-[50px_50px_78px_0_rgb(3,10,18),-50px_-50px_78px_0_rgb(11,38,74)] card container">
             <Profile age={myAge} />
           </div>
           <div className="text-white  col-span-1">
