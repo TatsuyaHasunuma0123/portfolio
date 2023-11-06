@@ -50,9 +50,9 @@ const Profile = (props: Props) => {
             <span className="text-[#FF30FF]">B</span>irthdaty
           </div>
           <div className="col-span-2 text-base mb-5">2001/01/23</div>
-          <div className="col-span-3 place-self-center mb-4  w-full">
-            <div className="flex justify-center items-center p-4 rounded-xl shadow-[13px_13px_26px_0_rgb(3,10,18),-13px_-13px_26px_0_rgb(11,38,74)] hover:shadow-[inset_13px_13px_50px_0_rgb(3,10,18),inset_-13px_-13px_26px_0_rgb(11,38,74)] cursor-pointer transition duration-300 ease-in-out">
-              <FaGithub className="text-4xl" />
+          <div className="col-span-3 place-self-center h-1/3  w-full">
+            <div className="flex justify-center items-center mb-8  p-4 rounded-xl shadow-[13px_13px_26px_0_rgb(3,10,18),-13px_-13px_26px_0_rgb(11,38,74)] hover:shadow-[inset_13px_13px_50px_0_rgb(3,10,18),inset_-13px_-13px_26px_0_rgb(11,38,74)] cursor-pointer transition duration-300 ease-in-out">
+              <FaGithub className="text-2xl md:3xl" />
             </div>
           </div>
         </div>
