@@ -19,7 +19,7 @@ const Profile = (props: Props) => {
             <img src="./icon.svg" className="object-fill rounded-lg"></img>
           </div>
 
-          <div className="mt-4 text-center text-2xl">Tatsuya aaaa</div>
+          <div className="mt-4 text-center text-2xl">Tatsuya Hasunuma</div>
           <div className="border-t-2 mt-4"></div>
           <div className="mt-3 grid grid-rows-7 grid-cols-3">
             <div className="row-span-2 place-self-center mt-5 mb-5">

@@ -14,7 +14,7 @@ const DisplayContent = (props: Props) => {
     <>
       {props.title == "Android" ? (
         <div className="h-full grid grid-cols-3 place-items-center gap-8">
-          <div className="h-full w-full grid place-items-center mb-20">
+          <div className="h-full w-full grid place-items-center mb-20 ml-4">
             <div className="grid place-items-center w-5/6 h-5/6 box">
               <span></span>
               <div className="content">
@@ -75,7 +75,7 @@ const DisplayContent = (props: Props) => {
             </div>
           </div>
           <div className="h-full w-full grid place-items-center mb-20">
-            <div className="grid place-items-center w-5/6 h-5/6 box">
+            <div className="grid place-items-center w-5/6 h-5/6 box mr-4">
               <span></span>
               <div className="content">
                 <a
@@ -112,7 +112,7 @@ const DisplayContent = (props: Props) => {
               <span></span>
               <div className="content">
                 <a
-                  href="https://github.com/TatsuyaHasunuma0123/canvas"
+                  href="https://github.com/TatsuyaHasunuma0123/Discuss"
                   target="_blank"
                 ></a>
                 <div className="content_card">
@@ -142,7 +142,7 @@ const DisplayContent = (props: Props) => {
               <span></span>
               <div className="content">
                 <a
-                  href="https://github.com/TatsuyaHasunuma0123/canvas"
+                  href="https://github.com/TatsuyaHasunuma0123/PopulationGraph"
                   target="_blank"
                 ></a>
                 <div className="content_card">
