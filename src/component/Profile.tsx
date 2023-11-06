@@ -13,14 +13,14 @@ const Profile = (props: Props) => {
   return (
     <>
       <div className="grid h-full w-full z-10 text-lg">
-        <div className="flex justify-center place-items-center z-20">
+        <div className="mt-4 flex justify-center place-items-center z-20">
           <img
             src="./icon.svg"
             className="rounded-lg h-5/6 w-5/6 object-fill "
           ></img>
         </div>
 
-        <div className="mt-4 text-center text-2xl">Tatsuya Hasunuma</div>
+        <div className="text-center text-2xl">Tatsuya Hasunuma</div>
         <div className="border-t-2 mt-4"></div>
         <div className="mt-3 grid grid-rows-7 grid-cols-3">
           <div className="row-span-2 place-self-center mt-5 mb-5">
@@ -50,11 +50,9 @@ const Profile = (props: Props) => {
             <span className="text-[#FF30FF]">B</span>irthdaty
           </div>
           <div className="col-span-2 text-base mb-5">2001/01/23</div>
-          <div className="col-span-3 place-self-center mt-5  w-full">
+          <div className="col-span-3 place-self-center mb-4  w-full">
             <div className="flex justify-center items-center p-4 rounded-xl shadow-[13px_13px_26px_0_rgb(3,10,18),-13px_-13px_26px_0_rgb(11,38,74)] hover:shadow-[inset_13px_13px_50px_0_rgb(3,10,18),inset_-13px_-13px_26px_0_rgb(11,38,74)] cursor-pointer transition duration-300 ease-in-out">
-              <IconContext.Provider value={{ size: "4rem" }}>
-                <FaGithub />
-              </IconContext.Provider>
+              <FaGithub className="text-4xl" />
             </div>
           </div>
         </div>
