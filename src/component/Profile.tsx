@@ -2,7 +2,8 @@ import "./Profile.css";
 import { FiMail } from "react-icons/fi";
 import { FaLocationArrow, FaGithub } from "react-icons/fa6";
 import { FaBirthdayCake } from "react-icons/fa";
-import { IconContext } from "react-icons";
+// import { IconContext } from "react-icons";
+import { IconContext } from "@react-icons/all-files";
 
 type Props = {
   age: number;
@@ -11,13 +12,11 @@ type Props = {
 const Profile = (props: Props) => {
   return (
     <>
-      <div className="md-10 grid place-items-center w-11/12 h-5/6 text-slate-100 p-10 shadow-[50px_50px_78px_0_rgb(3,10,18),-50px_-50px_78px_0_rgb(11,38,74)] card container">
+      <div className="grid w-11/12 h-5/6 text-slate-100 shadow-[50px_50px_78px_0_rgb(3,10,18),-50px_-50px_78px_0_rgb(11,38,74)] card container">
+        {/* <div className="grid w-11/12 h-5/6 text-slate-100 p-10 container n_card"> */}
         <div className="z-50 text-lg">
           <div className="flex justify-center">
-            <img
-              src="./icon.svg"
-              className="w-2/5 object-fill rounded-lg"
-            ></img>
+            <img src="./icon.svg" className="object-fill rounded-lg"></img>
           </div>
 
           <div className="mt-4 text-center text-2xl">Tatsuya Hasunuma</div>
@@ -51,9 +50,7 @@ const Profile = (props: Props) => {
             <div className="col-span-2">
               <span className="text-[#FF30FF]">B</span>irthdaty
             </div>
-            <div className="col-span-2 text-base mb-5">
-              January 1 , 2001 ({props.age})
-            </div>
+            <div className="col-span-2 text-base mb-5">2001/01/23</div>
             <div className="col-span-3 place-self-center mt-5  w-full">
               <div className="flex justify-center items-center p-4 rounded-xl shadow-[13px_13px_26px_0_rgb(3,10,18),-13px_-13px_26px_0_rgb(11,38,74)] hover:shadow-[inset_13px_13px_50px_0_rgb(3,10,18),inset_-13px_-13px_26px_0_rgb(11,38,74)] cursor-pointer transition duration-300 ease-in-out">
                 <IconContext.Provider value={{ size: "3rem" }}>
@@ -64,6 +61,7 @@ const Profile = (props: Props) => {
           </div>
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 };
